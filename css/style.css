@@ -1,0 +1,89 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.container {
+    
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.quote {
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.profile-picture {
+    max-width: 200px;
+    border-radius: 28px ;
+    display: block;
+    margin: 0 auto;
+}
+
+.inputs {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="color"] {
+    height: 40px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+
+    bottom: 0;
+    width: 100%;
+}
+.info{
+     margin: 10px 40px;
+}
+
+#roomColor{
+    width: 20px; 
+    height: 20px; 
+    display: inline-block;
+}

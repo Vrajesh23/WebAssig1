@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment #1 / Vrajesh / 991662443</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Assignment #1 / Vrajesh / 991662443</h1>
+    </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <img src="images/img1vt.jpg" alt="Your Picture" class="profile-picture">
+
+    <div class="inputs">
+      <label for="customerName">Customer's Name</label>
+      <input type="text" id="customerName" placeholder="Enter customer's name" />
+
+      <label for="customerEmail">Customer's Email</label>
+      <input type="email" id="customerEmail" placeholder="example@test.com" />
+
+      <label for="roomType">Room Type</label>
+      <input type="text" id="roomType" placeholder="Enter room type" />
+
+      <label for="roomWidth">Room Width</label>
+      <input type="number" id="roomWidth" placeholder="Enter room width" />
+
+      <label for="roomLength">Room Length</label>
+      <input type="number" id="roomLength" placeholder="Enter room length" />
+
+      <label for="colorPicker">Choose Paint Color</label>
+      <input type="color" id="colorPicker" />
+
+      <label for="paintType">Select Paint Type</label>
+      <select id="paintType">
+        <option value="standard">Standard Paint ($24.99 per can)</option>
+        <option value="premium">Premium Paint ($39.99 per can)</option>
+      </select>
+
+      <button type="button" onclick="createQuote()">Create Quote</button>
+    </div>
+  </div>
+
+ <!-- Footer -->
+ <footer>
+    <p>thakervr / Davis</p>
+</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
